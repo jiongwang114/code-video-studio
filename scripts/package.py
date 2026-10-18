@@ -17,10 +17,11 @@ EXCLUDED = {'.git', 'node_modules', '__pycache__', '.venv', 'outputs', 'dist'}
 
 
 def included_files():
-    return sorted(p for p in ROOT.rglob('*') if p.is_file()
+    return sorted((p for p in ROOT.rglob('*') if p.is_file()
                   and not any(part in EXCLUDED for part in p.relative_to(ROOT).parts)
                   and p.name not in {'MANIFEST.sha256', '.env', '.DS_Store'}
-                  and p.suffix not in {'.pyc', '.zip'})
+                  and p.suffix not in {'.pyc', '.zip'}),
+                  key=lambda p: p.relative_to(ROOT).as_posix())
 
 
 def digest(data):
