@@ -1,0 +1,798 @@
+{
+  "scope": "Explicit local Markdown links in copied upstream .md files; inline-code paths are not counted. External URLs are listed in sources but were not network-probed.",
+  "local_links_checked": 113,
+  "local_links_missing": 96,
+  "links": [
+    {
+      "source": "references/library/mg-styles-15/prompts/01-flat-vector.md",
+      "line": 5,
+      "destination": "../demos/01-flat-vector/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/01-flat-vector"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/01-flat-vector.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/02-line-art.md",
+      "line": 5,
+      "destination": "../demos/02-line-art/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/02-line-art"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/02-line-art.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/03-isometric.md",
+      "line": 5,
+      "destination": "../demos/03-isometric/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/03-isometric"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/03-isometric.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/04-3d-render.md",
+      "line": 5,
+      "destination": "../demos/04-3d-render/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/04-3d-render"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/04-3d-render.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/05-cel-boil.md",
+      "line": 5,
+      "destination": "../demos/05-cel-boil/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/05-cel-boil"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/05-cel-boil.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/06-collage.md",
+      "line": 5,
+      "destination": "../demos/06-collage/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/06-collage"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/06-collage.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/07-liquid.md",
+      "line": 5,
+      "destination": "../demos/07-liquid/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/07-liquid"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/07-liquid.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/08-morph.md",
+      "line": 5,
+      "destination": "../demos/08-morph/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/08-morph"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/08-morph.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/09-bauhaus.md",
+      "line": 5,
+      "destination": "../demos/09-bauhaus/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/09-bauhaus"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/09-bauhaus.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/10-synthwave.md",
+      "line": 5,
+      "destination": "../demos/10-synthwave/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/10-synthwave"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/10-synthwave.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/12-aurora-glass.md",
+      "line": 5,
+      "destination": "../demos/12-aurora-glass/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/12-aurora-glass"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/12-aurora-glass.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/18-hanazi.md",
+      "line": 5,
+      "destination": "../demos/18-hanazi/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/18-hanazi"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/18-hanazi.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/19-paperclip.md",
+      "line": 5,
+      "destination": "../demos/19-paperclip/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/19-paperclip"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/19-paperclip.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/20-pixel.md",
+      "line": 5,
+      "destination": "../demos/20-pixel/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/20-pixel"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/20-pixel.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/22-hud.md",
+      "line": 5,
+      "destination": "../demos/22-hud/",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/demos/22-hud"
+    },
+    {
+      "source": "references/library/mg-styles-15/prompts/22-hud.md",
+      "line": 12,
+      "destination": "../rubric.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/rubric.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/archive-lighttable/STYLE.md",
+      "line": 107,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/archive-lighttable/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/art-deco/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/art-deco/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ascii-crt/STYLE.md",
+      "line": 101,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ascii-crt/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ascii-crt/STYLE.md",
+      "line": 113,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ascii-crt/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/backrooms/STYLE.md",
+      "line": 109,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/backrooms/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/backrooms/STYLE.md",
+      "line": 123,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/backrooms/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/blueprint/STYLE.md",
+      "line": 104,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/blueprint/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/blueprint/STYLE.md",
+      "line": 118,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/blueprint/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/brick-toy/STYLE.md",
+      "line": 112,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/brick-toy/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/briefing-board/STYLE.md",
+      "line": 120,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/briefing-board/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/cel-anime-80s/STYLE.md",
+      "line": 117,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/cel-anime-80s/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/crayon-book/STYLE.md",
+      "line": 95,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/crayon-book/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/crayon-book/STYLE.md",
+      "line": 107,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/crayon-book/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/dark-keynote/STYLE.md",
+      "line": 103,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dark-keynote/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/dark-keynote/STYLE.md",
+      "line": 115,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dark-keynote/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/data-physical/STYLE.md",
+      "line": 117,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/data-physical/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/dataviz/STYLE.md",
+      "line": 109,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dataviz/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/dataviz/STYLE.md",
+      "line": 121,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dataviz/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/engraving/STYLE.md",
+      "line": 121,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/engraving/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/game-show/STYLE.md",
+      "line": 102,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/game-show/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/game-show/STYLE.md",
+      "line": 116,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/game-show/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/glass-product/STYLE.md",
+      "line": 108,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/glass-product/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/halftone-dossier/STYLE.md",
+      "line": 106,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/halftone-dossier/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/halftone-dossier/STYLE.md",
+      "line": 120,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/halftone-dossier/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/hd-2d/STYLE.md",
+      "line": 96,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hd-2d/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/hd-2d/STYLE.md",
+      "line": 108,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hd-2d/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/hologram-hud/STYLE.md",
+      "line": 103,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hologram-hud/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/hologram-hud/STYLE.md",
+      "line": 127,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hologram-hud/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/impasto/STYLE.md",
+      "line": 122,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/impasto/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ink-wash/STYLE.md",
+      "line": 118,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ink-wash/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/iso-infographic/STYLE.md",
+      "line": 103,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/iso-infographic/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/iso-infographic/STYLE.md",
+      "line": 115,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/iso-infographic/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/lidar-survey/STYLE.md",
+      "line": 116,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/lidar-survey/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/living-screencast/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/living-screencast/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/living-screencast/STYLE.md",
+      "line": 122,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/living-screencast/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/lowpoly-island/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/lowpoly-island/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/microgame/STYLE.md",
+      "line": 106,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/microgame/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/microgame/STYLE.md",
+      "line": 120,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/microgame/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/microscope/STYLE.md",
+      "line": 106,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/microscope/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/midcentury-toon/STYLE.md",
+      "line": 98,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/midcentury-toon/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/midcentury-toon/STYLE.md",
+      "line": 122,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/midcentury-toon/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/one-line/STYLE.md",
+      "line": 100,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/one-line/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/one-line/STYLE.md",
+      "line": 112,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/one-line/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/paper-lantern/STYLE.md",
+      "line": 102,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-lantern/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/paper-lantern/STYLE.md",
+      "line": 114,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-lantern/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/paper-popup/STYLE.md",
+      "line": 117,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-popup/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/papercut-red/STYLE.md",
+      "line": 108,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/papercut-red/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/pictogram-motion/STYLE.md",
+      "line": 105,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pictogram-motion/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/pictogram-motion/STYLE.md",
+      "line": 117,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pictogram-motion/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/pixel-rpg/STYLE.md",
+      "line": 103,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pixel-rpg/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/pixel-rpg/STYLE.md",
+      "line": 115,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pixel-rpg/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/risograph/STYLE.md",
+      "line": 123,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/risograph/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/rubber-hose/STYLE.md",
+      "line": 98,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/rubber-hose/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/rubber-hose/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/rubber-hose/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/satellite-briefing/STYLE.md",
+      "line": 114,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/satellite-briefing/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/scifi-toon/STYLE.md",
+      "line": 119,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/scifi-toon/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/shadow-puppet/STYLE.md",
+      "line": 122,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/shadow-puppet/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/silent-film/STYLE.md",
+      "line": 95,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silent-film/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/silent-film/STYLE.md",
+      "line": 107,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silent-film/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/silkscreen-poster/STYLE.md",
+      "line": 114,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silkscreen-poster/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/silkscreen-poster/STYLE.md",
+      "line": 138,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silkscreen-poster/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/spy-titles/STYLE.md",
+      "line": 102,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/spy-titles/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/spy-titles/STYLE.md",
+      "line": 114,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/spy-titles/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/stained-glass/STYLE.md",
+      "line": 121,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/stained-glass/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/swiss-motion/STYLE.md",
+      "line": 101,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/swiss-motion/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/swiss-motion/STYLE.md",
+      "line": 113,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/swiss-motion/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/teardown/STYLE.md",
+      "line": 125,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/teardown/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/tilt-shift/STYLE.md",
+      "line": 105,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/tilt-shift/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ukiyoe/STYLE.md",
+      "line": 22,
+      "destination": "DEMO.md#palette--props",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ukiyoe/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ukiyoe/STYLE.md",
+      "line": 98,
+      "destination": "DEMO.md#build-notes",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ukiyoe/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/ukiyoe/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ukiyoe/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/urban-sketch/STYLE.md",
+      "line": 110,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/urban-sketch/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/urban-sketch/STYLE.md",
+      "line": 124,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/urban-sketch/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/watercolor/STYLE.md",
+      "line": 99,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/watercolor/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/watercolor/STYLE.md",
+      "line": 111,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/watercolor/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/white-model/STYLE.md",
+      "line": 113,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/white-model/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/whiteboard/STYLE.md",
+      "line": 102,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/whiteboard/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/whiteboard/STYLE.md",
+      "line": 116,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/whiteboard/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/woodcut/STYLE.md",
+      "line": 108,
+      "destination": "DEMO.md#engine-reference",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/woodcut/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/styles/woodcut/STYLE.md",
+      "line": 120,
+      "destination": "DEMO.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/woodcut/DEMO.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/DIRECTOR.md",
+      "line": 3,
+      "destination": "TECHNIQUE.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/TECHNIQUE.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/TECHNIQUE.md",
+      "line": 3,
+      "destination": "DIRECTOR.md",
+      "exists_in_package": true,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/DIRECTOR.md"
+    },
+    {
+      "source": "references/library/lemo-opuscar/TECHNIQUE.md",
+      "line": 3,
+      "destination": "core/README.md",
+      "exists_in_package": false,
+      "upstream_url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/core/README.md"
+    }
+  ]
+}

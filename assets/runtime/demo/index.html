@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Deterministic renderer smoke demo</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#101716;color:#e9f3e3;font-family:Arial,sans-serif}
+#stage{position:absolute;inset:0;display:grid;place-content:center;text-align:center}
+h1{margin:0;font-size:7vw;line-height:1.1;letter-spacing:-.04em}p{font-size:2vw;color:#b5c8bb;margin:2vw 0}
+#line{height:.5vw;background:#e2f298;transform-origin:left; margin-top:3vw}
+#orb{position:absolute;left:12%;top:18%;width:6vw;height:6vw;border:1vw solid #e2f298;border-radius:50%}
+#label{position:absolute;bottom:5%;right:5%;font-size:1.6vw;font-variant-numeric:tabular-nums}
+</style>
+<div id="orb"></div><main id="stage"><h1>Ideas become motion.</h1><p>Every frame has an exact time.</p><div id="line"></div></main><div id="label"></div>
+<script>
+// No clock, random values, CSS transitions, autoplay, or accumulated state.
+const stage=document.querySelector('#stage'),orb=document.querySelector('#orb'),line=document.querySelector('#line'),label=document.querySelector('#label');
+const clamp=x=>Math.max(0,Math.min(1,x));
+const ease=x=>1-Math.pow(1-clamp(x),3);
+window.renderAt=async function(t){
+  if(!Number.isFinite(t)||t<0)throw new Error('Expected a nonnegative time in seconds.');
+  const enter=ease(t/1.2);
+  stage.style.opacity=String(enter);
+  stage.style.transform=`translateY(${(1-enter)*36}px)`;
+  line.style.transform=`scaleX(${clamp((t-.5)/2)})`;
+  orb.style.transform=`translate(${Math.sin(t*1.5)*3}vw,${Math.cos(t*1.5)*2}vw) rotate(${t*30}deg)`;
+  label.textContent=`t = ${t.toFixed(3)} s`;
+};
+window.READY=document.fonts.ready.then(()=>true);
+</script>
+</html>

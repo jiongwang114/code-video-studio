@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:code-video-studio:brief:1",
+  "title": "Code Video Studio project brief",
+  "description": "Twelve-field intake record. Source references preserve user evidence and delegation; suggestions are not approvals. ready_to_proceed is intake readiness, not production completion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "language", "fields", "blockers", "ready_to_proceed"],
+  "properties": {
+    "schema_version": { "const": "1.0" },
+    "language": { "type": "string", "minLength": 1, "default": "zh-CN" },
+    "project_name": { "type": ["string", "null"], "minLength": 1 },
+    "fields": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["idea", "goal_audience", "publishing_context", "output_spec", "language_copy", "audio", "style_preference", "must_include_exclude", "materials_sources", "code_asset_scope", "environment_constraints", "delivery_collaboration"],
+      "properties": {
+        "idea": { "$ref": "#/$defs/field", "title": "我的想法" },
+        "goal_audience": { "$ref": "#/$defs/field", "title": "目标与受众" },
+        "publishing_context": { "$ref": "#/$defs/field", "title": "发布场景" },
+        "output_spec": { "$ref": "#/$defs/field", "title": "输出规格" },
+        "language_copy": { "$ref": "#/$defs/field", "title": "语言与文案" },
+        "audio": { "$ref": "#/$defs/field", "title": "声音" },
+        "style_preference": { "$ref": "#/$defs/field", "title": "风格偏好" },
+        "must_include_exclude": { "$ref": "#/$defs/field", "title": "必须出现／禁止出现" },
+        "materials_sources": { "$ref": "#/$defs/field", "title": "资料与素材" },
+        "code_asset_scope": { "$ref": "#/$defs/field", "title": "纯代码与外部素材范围" },
+        "environment_constraints": { "$ref": "#/$defs/field", "title": "制作环境与限制" },
+        "delivery_collaboration": { "$ref": "#/$defs/field", "title": "交付与协作偏好" }
+      }
+    },
+    "blockers": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/blocker" },
+      "default": []
+    },
+    "ready_to_proceed": {
+      "type": "boolean",
+      "description": "True only after the complete intake table has been shown, every field has an evidence-backed resolution or delegation, the idea is concrete, and no critical blockers remain."
+    }
+  },
+  "allOf": [
+    {
+      "if": { "properties": { "ready_to_proceed": { "const": true } }, "required": ["ready_to_proceed"] },
+      "then": {
+        "properties": {
+          "blockers": { "maxItems": 0 },
+          "fields": {
+            "additionalProperties": {
+              "properties": { "status": { "enum": ["filled", "delegated", "not_applicable"] } }
+            },
+            "properties": {
+              "idea": { "properties": { "value": { "type": "string", "minLength": 1 }, "status": { "enum": ["filled", "delegated"] } } }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "field_id": {
+      "type": "string",
+      "enum": ["idea", "goal_audience", "publishing_context", "output_spec", "language_copy", "audio", "style_preference", "must_include_exclude", "materials_sources", "code_asset_scope", "environment_constraints", "delivery_collaboration"]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "reference"],
+      "properties": {
+        "kind": { "enum": ["explicit", "delegated", "none"] },
+        "reference": {
+          "type": ["string", "null"],
+          "minLength": 1,
+          "description": "A user quote, message reference or user-designated source. For delegated entries, include the actual delegation and its scope; for none, use null."
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "kind": { "const": "none" } }, "required": ["kind"] },
+          "then": { "properties": { "reference": { "type": "null" } } },
+          "else": { "properties": { "reference": { "type": "string", "minLength": 1 } } }
+        }
+      ]
+    },
+    "field": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "status", "source"],
+      "properties": {
+        "value": { "type": ["string", "null"], "minLength": 1 },
+        "status": { "enum": ["filled", "pending", "delegated", "not_applicable"] },
+        "source": { "type": "array", "items": { "$ref": "#/$defs/source" }, "minItems": 1 },
+        "suggestion": { "type": "string", "minLength": 1, "description": "Unadopted agent suggestion; never user evidence or an execution authorization." },
+        "missing": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true, "description": "Specific unanswered points when a field is partially known." }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "status": { "const": "filled" } }, "required": ["status"] },
+          "then": {
+            "properties": {
+              "value": { "type": "string", "minLength": 1 },
+              "source": { "items": { "properties": { "kind": { "const": "explicit" } } } },
+              "missing": { "maxItems": 0 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "status": { "const": "delegated" } }, "required": ["status"] },
+          "then": {
+            "properties": {
+              "source": {
+                "items": { "properties": { "kind": { "enum": ["explicit", "delegated"] } } },
+                "contains": { "properties": { "kind": { "const": "delegated" } }, "required": ["kind"] },
+                "minContains": 1
+              },
+              "missing": { "maxItems": 0 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "status": { "const": "not_applicable" } }, "required": ["status"] },
+          "then": {
+            "properties": {
+              "value": { "type": "string", "minLength": 1, "description": "Explain why the field does not apply within the confirmed or delegated scope." },
+              "source": { "items": { "properties": { "kind": { "enum": ["explicit", "delegated"] } } } },
+              "missing": { "maxItems": 0 }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "status": { "const": "pending" } }, "required": ["status"] },
+          "then": {
+            "properties": {
+              "source": { "items": { "properties": { "kind": { "enum": ["explicit", "none"] } } } }
+            }
+          }
+        }
+      ]
+    },
+    "blocker": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "missing", "reason", "resolution"],
+      "properties": {
+        "field": { "$ref": "#/$defs/field_id" },
+        "missing": { "type": "string", "minLength": 1 },
+        "reason": { "type": "string", "minLength": 1 },
+        "resolution": { "type": "string", "minLength": 1 },
+        "kind": { "enum": ["user_input", "required_asset", "conflict", "tool_unavailable", "scope_limit"] }
+      }
+    }
+  }
+}

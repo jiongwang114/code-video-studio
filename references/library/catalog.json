@@ -1,0 +1,1285 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-19",
+  "path_base": "skill package root (directory containing SKILL.md)",
+  "count": {
+    "total": 66,
+    "mg-styles-15": 15,
+    "lemo-opuscar": 51
+  },
+  "metadata_note": "中文名与分类仅为检索标签，不代表上游原文的完整风格定义；必须阅读入选原文。source_title 是原文标题。",
+  "sources": [
+    {
+      "repo": "Vincentwei1021/mg-styles-15",
+      "family": "mg-styles-15",
+      "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+      "license": "MIT",
+      "license_path": "references/library/mg-styles-15/LICENSE",
+      "copyright": "Copyright (c) 2026 Vincentwei1021"
+    },
+    {
+      "repo": "lemomo-ai/lemo-opuscar",
+      "family": "lemo-opuscar",
+      "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+      "license": "MIT",
+      "license_path": "references/library/lemo-opuscar/LICENSE",
+      "copyright": "Copyright (c) 2026 LemoLab"
+    }
+  ],
+  "entries": [
+    {
+      "id": "mg-01-flat-vector",
+      "family": "mg-styles-15",
+      "name_zh": "扁平矢量动画 Flat / Vector 2D Motion Graphics",
+      "source_title": "扁平矢量动画 Flat / Vector 2D Motion Graphics",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/01-flat-vector.md",
+      "bytes": 8245,
+      "sha256": "0599f4dadbc163066d70e5b98afa190a5580ee00e14bd1ce3473ce8f14c48cf3",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/01-flat-vector.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "bfe6afa4b5b1c184fff5d68207bb81f08216a44e",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/01-flat-vector.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/01-flat-vector.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-02-line-art",
+      "family": "mg-styles-15",
+      "name_zh": "线条动画 Line Art / Line Animation",
+      "source_title": "线条动画 Line Art / Line Animation",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/02-line-art.md",
+      "bytes": 7766,
+      "sha256": "1e61c9fcf80059a20029516f3d0fd016e849d98bb69bdcbf8b63a9e53759d3ce",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/02-line-art.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "848d15753dffdcf549407a0c53c54b48d5e3810a",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/02-line-art.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/02-line-art.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-03-isometric",
+      "family": "mg-styles-15",
+      "name_zh": "等轴 2.5D Isometric / 2.5D",
+      "source_title": "等轴 2.5D Isometric / 2.5D",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/03-isometric.md",
+      "bytes": 7969,
+      "sha256": "5ace3ffa0d9e4a4a701ae442c102762fcd922229003d675a48f4aa5eb54011e2",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/03-isometric.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "68b8bbcf6b237bd1a4d46f75f60f18c891b5dc90",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/03-isometric.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/03-isometric.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-04-3d-render",
+      "family": "mg-styles-15",
+      "name_zh": "3D 渲染系（C4D/Blender 质感） 3D Render / CGI Motion Design",
+      "source_title": "3D 渲染系（C4D/Blender 质感） 3D Render / CGI Motion Design",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/04-3d-render.md",
+      "bytes": 7877,
+      "sha256": "93e7cb0b54cbc6991d4856140afe050cc84e4c6298ac06e369da6a829904521b",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/04-3d-render.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "fe3573befb0c70bbf7b9f0e37cc706d7dd418351",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/04-3d-render.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/04-3d-render.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-05-cel-boil",
+      "family": "mg-styles-15",
+      "name_zh": "逐帧手绘 / 线条沸腾 Cel Animation / Frame-by-Frame & Line Boil",
+      "source_title": "逐帧手绘 / 线条沸腾 Cel Animation / Frame-by-Frame & Line Boil",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/05-cel-boil.md",
+      "bytes": 7791,
+      "sha256": "ec64b2dea47a557f8506f3e913d2b7a3e4e0efddf9bf0309ffdea40e9116dd68",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/05-cel-boil.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "7d435c061e95fd41cacf5062170bb0d4b04e0da1",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/05-cel-boil.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/05-cel-boil.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-06-collage",
+      "family": "mg-styles-15",
+      "name_zh": "拼贴剪贴 Collage / Cutout Animation",
+      "source_title": "拼贴剪贴 Collage / Cutout Animation",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/06-collage.md",
+      "bytes": 7740,
+      "sha256": "556478d4122d1db0535656998f64da8d1805505b14c9eb623f002d3b6aef688d",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/06-collage.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "ff223a26faaed295c7c5dd930bb07796365e94f8",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/06-collage.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/06-collage.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-07-liquid",
+      "family": "mg-styles-15",
+      "name_zh": "液态流动 Liquid Motion",
+      "source_title": "液态流动 Liquid Motion",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/07-liquid.md",
+      "bytes": 7615,
+      "sha256": "7c41e4409bf83fdb8a53ceae1dafd90efc72b2fb1d42654e30f294169ecee379",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/07-liquid.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "5320cec82131f82f808f88e937607fec5b1ecd4e",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/07-liquid.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/07-liquid.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-08-morph",
+      "family": "mg-styles-15",
+      "name_zh": "形变动画 Morphing / Shape Morph",
+      "source_title": "形变动画 Morphing / Shape Morph",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/08-morph.md",
+      "bytes": 7432,
+      "sha256": "75c9e2bb8ca1edbba5686b431ff85e5ee99be1188e84184d9a105e12c0da63aa",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/08-morph.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "49865613173ddb15bc6cf33504e5b647df55da38",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/08-morph.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/08-morph.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-09-bauhaus",
+      "family": "mg-styles-15",
+      "name_zh": "几何构成 / 包豪斯 Geometric / Bauhaus Motion",
+      "source_title": "几何构成 / 包豪斯 Geometric / Bauhaus Motion",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/09-bauhaus.md",
+      "bytes": 7960,
+      "sha256": "061828b54389f932f7914bdbc6e5afc25c394a401bcdf06111b7f4687d9f89f5",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/09-bauhaus.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "3dd39249b00c7c751caac700154305bead6f4ece",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/09-bauhaus.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/09-bauhaus.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-10-synthwave",
+      "family": "mg-styles-15",
+      "name_zh": "复古系（80s Synthwave / Y2K 千禧） Retro: 80s Synthwave / VHS / Y2K",
+      "source_title": "复古系（80s Synthwave / Y2K 千禧） Retro: 80s Synthwave / VHS / Y2K",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/10-synthwave.md",
+      "bytes": 7933,
+      "sha256": "a12b216b68afc2fbe51cfe1a410b6eebd71b5cc82f42a2e8c5ca0d85de8747d5",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/10-synthwave.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "3cc5e71a6512cd4c5326826e07aa8280bbdb07b2",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/10-synthwave.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/10-synthwave.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-12-aurora-glass",
+      "family": "mg-styles-15",
+      "name_zh": "弥散渐变 / 玻璃拟态 Gradient Blur (Aurora) & Glassmorphism",
+      "source_title": "弥散渐变 / 玻璃拟态 Gradient Blur (Aurora) & Glassmorphism",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/12-aurora-glass.md",
+      "bytes": 7829,
+      "sha256": "c5e68258e5ae0a5e1c5c3a05c4651a9efb5472da6098f17d468442382b3004b3",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/12-aurora-glass.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "7a6b54e9ca896fea7218c7e6e0cc607f5fcd20c1",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/12-aurora-glass.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/12-aurora-glass.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-18-hanazi",
+      "family": "mg-styles-15",
+      "name_zh": "综艺花字 Variety Show Kinetic Captions (Hanazi)",
+      "source_title": "综艺花字 Variety Show Kinetic Captions (Hanazi)",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/18-hanazi.md",
+      "bytes": 7923,
+      "sha256": "7d6bc0e6e3712778a2ed849fab1a358055d2dfc88cbddc1a27b5694c2f25be69",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/18-hanazi.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "ca6ccdf323bd1970edbf4159c38f04ffa74e28d7",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/18-hanazi.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/18-hanazi.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-19-paperclip",
+      "family": "mg-styles-15",
+      "name_zh": "粗描边贴纸人科普 MG（回形针/林超风格） Bold-outline Sticker Explainer MG (PaperClip / Lin Chao style)",
+      "source_title": "粗描边贴纸人科普 MG（回形针/林超风格） Bold-outline Sticker Explainer MG (PaperClip / Lin Chao style)",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/19-paperclip.md",
+      "bytes": 8016,
+      "sha256": "808ccae55d57005eefdc78c06007bc324195063faac80d8c47136ff050b4ea05",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/19-paperclip.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "e247db8d4adb06dcbe53645c4e5302b59b2e504f",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/19-paperclip.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/19-paperclip.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-20-pixel",
+      "family": "mg-styles-15",
+      "name_zh": "像素风 Pixel Art / 8-bit",
+      "source_title": "像素风 Pixel Art / 8-bit",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/20-pixel.md",
+      "bytes": 7601,
+      "sha256": "6eeeb3d60c6a0a1a52417bc6e71c5600113cb62202a623b408460485c96fa9ef",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/20-pixel.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "c91ef7bde71f83849260cbf9364469d2027caa43",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/20-pixel.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/20-pixel.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "mg-22-hud",
+      "family": "mg-styles-15",
+      "name_zh": "赛博朋克 HUD / FUI Cyberpunk HUD / FUI (Fictional UI)",
+      "source_title": "赛博朋克 HUD / FUI Cyberpunk HUD / FUI (Fictional UI)",
+      "category_zh": "MG 动效",
+      "path": "references/library/mg-styles-15/prompts/22-hud.md",
+      "bytes": 7756,
+      "sha256": "42e7ba11855ecba90ab9bea4f6963d56f725dbbfd32ff637daebf9428fabb2c9",
+      "upstream": {
+        "repo": "Vincentwei1021/mg-styles-15",
+        "file": "prompts/22-hud.md",
+        "commit": "49052d80bfaf9fa8412cc9710530e5e95a3b8d8c",
+        "blob_sha": "c1b77d5f4af95dcd39be40ec5b5f7ab646223b3a",
+        "url": "https://github.com/Vincentwei1021/mg-styles-15/blob/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/22-hud.md",
+        "raw_url": "https://raw.githubusercontent.com/Vincentwei1021/mg-styles-15/49052d80bfaf9fa8412cc9710530e5e95a3b8d8c/prompts/22-hud.md",
+        "verification": "byte-identical to archived file; Git blob SHA-1 matches upstream tree metadata"
+      }
+    },
+    {
+      "id": "style-archive-lighttable",
+      "family": "lemo-opuscar",
+      "name_zh": "档案灯台",
+      "source_title": "Archive Light Table — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/archive-lighttable/STYLE.md",
+      "bytes": 13338,
+      "sha256": "2f18ac9a42822b7a9941866c42b0642e5417dea5431d61f141f6e11b29c1ec14",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/archive-lighttable/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "d3f5afde708f94af9347ff05d10f4f9860557492",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/archive-lighttable/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/archive-lighttable/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-art-deco",
+      "family": "lemo-opuscar",
+      "name_zh": "装饰艺术",
+      "source_title": "Art Deco — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/art-deco/STYLE.md",
+      "bytes": 12196,
+      "sha256": "d73b30c0fa6d153487549d32d8c6c599733cf5e7576badec862a12da6d284761",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/art-deco/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "3cd68b219282eab2d3fdb60e18f465787a54c388",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/art-deco/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/art-deco/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-ascii-crt",
+      "family": "lemo-opuscar",
+      "name_zh": "ASCII / CRT 终端",
+      "source_title": "ASCII / CRT Terminal: Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/ascii-crt/STYLE.md",
+      "bytes": 12202,
+      "sha256": "cbe0b8957c785a165f85ccb3b8eba61c30c0462b32983db6a16c76046a2bb333",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/ascii-crt/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "396825b8d4f770c1c20f19db30b76790d849e0aa",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ascii-crt/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/ascii-crt/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-backrooms",
+      "family": "lemo-opuscar",
+      "name_zh": "后室 / 新怪谈",
+      "source_title": "Liminal Found Footage — Style Prompt",
+      "category_zh": "电影与时代",
+      "path": "references/library/lemo-opuscar/styles/backrooms/STYLE.md",
+      "bytes": 12545,
+      "sha256": "621f204f5bc4576af497a169f2442b91caffee99046989a117ba06c6c1d572a0",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/backrooms/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "b2a3c98c6c55600c30ac359292def8c56e272850",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/backrooms/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/backrooms/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-blueprint",
+      "family": "lemo-opuscar",
+      "name_zh": "蓝图 / 工程制图",
+      "source_title": "Blueprint — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/blueprint/STYLE.md",
+      "bytes": 12323,
+      "sha256": "de01fc7fcb38b17b58eb017c9cdbcb36b9242b029435a33587614c93088e1717",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/blueprint/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "08c33019ee14b8ecff9254c29b32a0a4c15ec1fe",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/blueprint/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/blueprint/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-brick-toy",
+      "family": "lemo-opuscar",
+      "name_zh": "积木玩具",
+      "source_title": "Brick Toy — Style Prompt",
+      "category_zh": "材质与 3D",
+      "path": "references/library/lemo-opuscar/styles/brick-toy/STYLE.md",
+      "bytes": 12556,
+      "sha256": "29b23e846951856b722a698a03c9458cfc17b4fc71d044f45d773acf2a742768",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/brick-toy/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "a93656c9c254fe36ff8ed94dfde04d79ccf9e7dd",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/brick-toy/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/brick-toy/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-briefing-board",
+      "family": "lemo-opuscar",
+      "name_zh": "工程简报板",
+      "source_title": "Engineering Briefing Board — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/briefing-board/STYLE.md",
+      "bytes": 13328,
+      "sha256": "44669da808da4ed37e2a4a0f6e5d2b23008775a3c4870add04641d714e9f323d",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/briefing-board/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "912cae2d8cd1db96f9434e2ceb2e73f07b61dfad",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/briefing-board/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/briefing-board/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-cel-anime-80s",
+      "family": "lemo-opuscar",
+      "name_zh": "80 年代赛璐璐动画",
+      "source_title": "80s Cel Anime — Style Prompt",
+      "category_zh": "卡通与动画",
+      "path": "references/library/lemo-opuscar/styles/cel-anime-80s/STYLE.md",
+      "bytes": 12647,
+      "sha256": "1e16f5c6f90ebf09556ec94d37434400d309c978e00ee89e9d38dec476664eaf",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/cel-anime-80s/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "bde19c4d29f1d15dcb6ee1f4b5abcfbfbfa0d35f",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/cel-anime-80s/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/cel-anime-80s/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-crayon-book",
+      "family": "lemo-opuscar",
+      "name_zh": "蜡笔儿童绘本",
+      "source_title": "Crayon Picture Book — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/crayon-book/STYLE.md",
+      "bytes": 11339,
+      "sha256": "ba558478fe519fa6777fe28fa7d1980117297c7beb6fe2e366ef6f00688aa175",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/crayon-book/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "d17e37cdedc5b62a03537066631987cc558e931b",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/crayon-book/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/crayon-book/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-dark-keynote",
+      "family": "lemo-opuscar",
+      "name_zh": "暗色科技发布",
+      "source_title": "Dark Tech Keynote — Style Prompt",
+      "category_zh": "信息与发布",
+      "path": "references/library/lemo-opuscar/styles/dark-keynote/STYLE.md",
+      "bytes": 12164,
+      "sha256": "b0791b5e95f56bf46c621e6064d426ebbee810c7515fb87e951b73668a2a0d24",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/dark-keynote/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "a2c94fd284715fe1b1da718b7f2404a12171a434",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dark-keynote/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/dark-keynote/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-data-physical",
+      "family": "lemo-opuscar",
+      "name_zh": "数据实物化",
+      "source_title": "Data Physicalization — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/data-physical/STYLE.md",
+      "bytes": 13475,
+      "sha256": "2d2e6685b0dcf8a1e2ba2ff904ab02d51aede1f5dbb246fd2f6e81c8d146f208",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/data-physical/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "6b9aaf1537738cb841e08fbf3b4806effc5e81b9",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/data-physical/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/data-physical/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-dataviz",
+      "family": "lemo-opuscar",
+      "name_zh": "数据叙事",
+      "source_title": "Data Storytelling — Style Prompt",
+      "category_zh": "信息与发布",
+      "path": "references/library/lemo-opuscar/styles/dataviz/STYLE.md",
+      "bytes": 11415,
+      "sha256": "e94013d5a7c548c8844598a671ff0b49bc78770696cbca0d8d00846336f3c67f",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/dataviz/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "1d3c361cd488f053388be6d98120a9dcfa8033a1",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/dataviz/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/dataviz/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-engraving",
+      "family": "lemo-opuscar",
+      "name_zh": "铜版画",
+      "source_title": "Copperplate Engraving — Style Prompt",
+      "category_zh": "印刷与版画",
+      "path": "references/library/lemo-opuscar/styles/engraving/STYLE.md",
+      "bytes": 12338,
+      "sha256": "0c6816b8b47163d158ae0ea668feecf53dcbef9d1310e27b9e797d9b9e7aac0d",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/engraving/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "b9529171436dfb98516756181b83aaf1afe29f1b",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/engraving/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/engraving/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-game-show",
+      "family": "lemo-opuscar",
+      "name_zh": "综艺节奏扁平",
+      "source_title": "Game Show Flat — Style Prompt",
+      "category_zh": "游戏",
+      "path": "references/library/lemo-opuscar/styles/game-show/STYLE.md",
+      "bytes": 12469,
+      "sha256": "027ed83dbee6596dbd255bcaf20275db18b41b4f7b8f2f5ef72d1d3ebf06ba8f",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/game-show/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "7b2570f6c673ea70a36fdb74d4020e7705da61ef",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/game-show/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/game-show/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-glass-product",
+      "family": "lemo-opuscar",
+      "name_zh": "玻璃质感产品",
+      "source_title": "Glass Product Render — Style Prompt",
+      "category_zh": "材质与 3D",
+      "path": "references/library/lemo-opuscar/styles/glass-product/STYLE.md",
+      "bytes": 12199,
+      "sha256": "630fa80cde0930154ba64f15bce5c8ee0c8dcf48d921253f8c7e3194712c8fb5",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/glass-product/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "01628dbe058a8e63ffb66122d487e1964825fc42",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/glass-product/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/glass-product/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-halftone-dossier",
+      "family": "lemo-opuscar",
+      "name_zh": "复古半调案卷",
+      "source_title": "Halftone Dossier — Style Prompt",
+      "category_zh": "印刷与版画",
+      "path": "references/library/lemo-opuscar/styles/halftone-dossier/STYLE.md",
+      "bytes": 12390,
+      "sha256": "afe98514f065c9f924dda0a483388617122f38df99462025542d2f23d9eb7e3b",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/halftone-dossier/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "50075ba584f106db853c18c2ceb97b1989a48938",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/halftone-dossier/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/halftone-dossier/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-hd-2d",
+      "family": "lemo-opuscar",
+      "name_zh": "HD-2D",
+      "source_title": "HD-2D — Style Prompt",
+      "category_zh": "游戏",
+      "path": "references/library/lemo-opuscar/styles/hd-2d/STYLE.md",
+      "bytes": 12073,
+      "sha256": "23c027f48b5342bb8ac5dcd3ea6e5baab901628d89f4ef6dd857764ce78c9c92",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/hd-2d/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "db6e3f83b30041b8947123ec9f694cad7e950aac",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hd-2d/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/hd-2d/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-hologram-hud",
+      "family": "lemo-opuscar",
+      "name_zh": "科幻全息界面",
+      "source_title": "Sci-fi Hologram HUD — Style Prompt",
+      "category_zh": "信息与发布",
+      "path": "references/library/lemo-opuscar/styles/hologram-hud/STYLE.md",
+      "bytes": 11833,
+      "sha256": "81e2c6b0ede2cc211a8dd676417a1ce5efda278514f273c5249165e38ff34573",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/hologram-hud/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "d4d505d0eb74474603b326fadc68416f90b31cde",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/hologram-hud/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/hologram-hud/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-impasto",
+      "family": "lemo-opuscar",
+      "name_zh": "油画厚涂",
+      "source_title": "Impasto · Palette Knife — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/impasto/STYLE.md",
+      "bytes": 12013,
+      "sha256": "38a0dcb2808c2ff03ef721c1319b9145438b4074ed37ab7a09dcf20b7268e062",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/impasto/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "87eb6d8ed9936c26ccd9740f88145be8a0c98d45",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/impasto/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/impasto/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-ink-wash",
+      "family": "lemo-opuscar",
+      "name_zh": "中国水墨",
+      "source_title": "Chinese Ink Wash — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/ink-wash/STYLE.md",
+      "bytes": 11277,
+      "sha256": "5d71598f0b9cf4034c6461956b0d8bd63bd33750b4045376044f0d956b01d645",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/ink-wash/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "b17e52b77c94ba4a8e99aa7193d7481e800460fd",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ink-wash/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/ink-wash/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-iso-infographic",
+      "family": "lemo-opuscar",
+      "name_zh": "等距信息图",
+      "source_title": "Isometric Infographic — Style Prompt",
+      "category_zh": "信息与发布",
+      "path": "references/library/lemo-opuscar/styles/iso-infographic/STYLE.md",
+      "bytes": 11974,
+      "sha256": "17fc6b78512548483d8bf21723882a4fef6f1e266e4d173c883a2b45ef9ab0d2",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/iso-infographic/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "7be3621e7bc5fadb9014a2008370a90d0b016e7b",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/iso-infographic/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/iso-infographic/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-lidar-survey",
+      "family": "lemo-opuscar",
+      "name_zh": "点云测绘",
+      "source_title": "LiDAR Survey — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/lidar-survey/STYLE.md",
+      "bytes": 13154,
+      "sha256": "d1b60fda2793932286372e7cf68d62af5723bba14c37e9a437639ea57b1a310d",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/lidar-survey/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "c0fcfbd6474e6eac9228d36000f886c28859de40",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/lidar-survey/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/lidar-survey/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-living-screencast",
+      "family": "lemo-opuscar",
+      "name_zh": "活体实机录屏",
+      "source_title": "Living Screencast — Style Prompt",
+      "category_zh": "信息与发布",
+      "path": "references/library/lemo-opuscar/styles/living-screencast/STYLE.md",
+      "bytes": 11498,
+      "sha256": "91e75f666a6ab5122ead52aa5c47a603f83d0578bab0b9aa223cf83b639fbb16",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/living-screencast/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "abeb6982aa4e600da62370d45c94848cc28c4ae8",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/living-screencast/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/living-screencast/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-lowpoly-island",
+      "family": "lemo-opuscar",
+      "name_zh": "低多边形等距",
+      "source_title": "Low-poly Isometric Island — Style Prompt",
+      "category_zh": "材质与 3D",
+      "path": "references/library/lemo-opuscar/styles/lowpoly-island/STYLE.md",
+      "bytes": 12302,
+      "sha256": "d87e56fd3677841e19f273352ea3481328a237403012ffa7ccb6089c97401702",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/lowpoly-island/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "775fa3a225c5b1052cd220828e0e0f9702799085",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/lowpoly-island/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/lowpoly-island/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-microgame",
+      "family": "lemo-opuscar",
+      "name_zh": "微游戏快闪（瓦里奥制造式）",
+      "source_title": "Microgame Frenzy — Style Prompt",
+      "category_zh": "游戏",
+      "path": "references/library/lemo-opuscar/styles/microgame/STYLE.md",
+      "bytes": 12556,
+      "sha256": "ce209dde1270d032436e02569857bed373cee86e45870bf853d4d8797dc719fb",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/microgame/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "20eca2e5179f678e7d17221bebd954ad353b3514",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/microgame/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/microgame/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-microscope",
+      "family": "lemo-opuscar",
+      "name_zh": "显微叙事",
+      "source_title": "Microscope Story — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/microscope/STYLE.md",
+      "bytes": 13153,
+      "sha256": "63040631bdc28a3c7f8cf05e2e8523969becd0267741e00dd3e171c22be16e92",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/microscope/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "f3a4d081774167aa754fa47d8c2055e483519335",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/microscope/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/microscope/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-midcentury-toon",
+      "family": "lemo-opuscar",
+      "name_zh": "50s 扁平卡通",
+      "source_title": "Mid-century Cartoon — Style Prompt",
+      "category_zh": "卡通与动画",
+      "path": "references/library/lemo-opuscar/styles/midcentury-toon/STYLE.md",
+      "bytes": 12620,
+      "sha256": "e73614b6f9e2f2e8ee279f4909da8429235b96f6d13a12345b6e57d5823c30b8",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/midcentury-toon/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "22ca95355affd767f0e9c49b0dae5aa0110136c7",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/midcentury-toon/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/midcentury-toon/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-one-line",
+      "family": "lemo-opuscar",
+      "name_zh": "一笔画",
+      "source_title": "One-line Drawing — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/one-line/STYLE.md",
+      "bytes": 11372,
+      "sha256": "69d26cb06f48ab6b03c12a76c2390d0945cdaddc38bc109b7d5e292b9af1399b",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/one-line/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "e5731a7f84b07772860db04c3359aefde9642d67",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/one-line/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/one-line/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-paper-lantern",
+      "family": "lemo-opuscar",
+      "name_zh": "纸雕灯影",
+      "source_title": "Paper-cut Lightbox — Style Prompt",
+      "category_zh": "东方传统",
+      "path": "references/library/lemo-opuscar/styles/paper-lantern/STYLE.md",
+      "bytes": 12134,
+      "sha256": "6f3001ad45657262384b3012f441883ef5ac9c558b82d23e503d14e2f672ac91",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/paper-lantern/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "8c6ddf8f3e9b531da9bc661b30c0f4c0ef799b92",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-lantern/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-lantern/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-paper-popup",
+      "family": "lemo-opuscar",
+      "name_zh": "纸片立体书",
+      "source_title": "Paper Pop-up Book — Style Prompt",
+      "category_zh": "材质与 3D",
+      "path": "references/library/lemo-opuscar/styles/paper-popup/STYLE.md",
+      "bytes": 12095,
+      "sha256": "8e5c0ca430fd96b75c4d9c2af92a87c84d4d1af8cda64280a189c51279e1ee9b",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/paper-popup/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "cf00194c3d7e57f646ef0abc4d4a12e7094eeddd",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-popup/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/paper-popup/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-papercut-red",
+      "family": "lemo-opuscar",
+      "name_zh": "红色窗花剪纸",
+      "source_title": "Red Paper-cut — Style Prompt",
+      "category_zh": "东方传统",
+      "path": "references/library/lemo-opuscar/styles/papercut-red/STYLE.md",
+      "bytes": 12450,
+      "sha256": "65e317d83335e0cb34696b643e31ad9e46fb0bb93fd748c2e21d74358aea61ec",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/papercut-red/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "7f870e33d104bf435331feff95d1a23bed890675",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/papercut-red/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/papercut-red/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-pictogram-motion",
+      "family": "lemo-opuscar",
+      "name_zh": "象形运动图形",
+      "source_title": "Pictogram Motion — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/pictogram-motion/STYLE.md",
+      "bytes": 12085,
+      "sha256": "e982606f3d7d132d320abdc1a74c226b1e0642b664a0c41582bc76fec646da1a",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/pictogram-motion/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "a8688359bf18c820a1df37e70df65c60092fb24f",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pictogram-motion/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/pictogram-motion/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-pixel-rpg",
+      "family": "lemo-opuscar",
+      "name_zh": "16-bit 像素 RPG",
+      "source_title": "16-bit Pixel RPG — Style Prompt",
+      "category_zh": "游戏",
+      "path": "references/library/lemo-opuscar/styles/pixel-rpg/STYLE.md",
+      "bytes": 11278,
+      "sha256": "a935373e444a9d28954220e3bd725d40e9048dd1ca36eb3971faede78d23b4ea",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/pixel-rpg/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "67ea7c0aab73a5592bbe340ae8f39f0e22260a75",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/pixel-rpg/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/pixel-rpg/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-risograph",
+      "family": "lemo-opuscar",
+      "name_zh": "Risograph 孔版印刷",
+      "source_title": "Risograph Print — Style Prompt",
+      "category_zh": "印刷与版画",
+      "path": "references/library/lemo-opuscar/styles/risograph/STYLE.md",
+      "bytes": 12030,
+      "sha256": "c3d85c91a81b0afde091d964482749482adc66c12730afe124708f7b18b331a6",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/risograph/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "4b2f4e2c53ff87ae5cddd4e16f6ab4b8a765c4b3",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/risograph/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/risograph/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-rubber-hose",
+      "family": "lemo-opuscar",
+      "name_zh": "1930s 橡皮管卡通",
+      "source_title": "1930s Rubber Hose Cartoon — Style Prompt",
+      "category_zh": "卡通与动画",
+      "path": "references/library/lemo-opuscar/styles/rubber-hose/STYLE.md",
+      "bytes": 12791,
+      "sha256": "bf850f9cd22e68b2125fed00d1b9804e91479620b44420ba7ec50e570e472a94",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/rubber-hose/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "7e4212fdbdbef1ac35dd27e6589b4ff9b4076a4d",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/rubber-hose/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/rubber-hose/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-satellite-briefing",
+      "family": "lemo-opuscar",
+      "name_zh": "卫星简报",
+      "source_title": "Satellite Briefing — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/satellite-briefing/STYLE.md",
+      "bytes": 13174,
+      "sha256": "39fec0c7fda13600de04f1a9631ca636dc8850429033c1f65bb6d3283ec2988d",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/satellite-briefing/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "8fb341c5fe18f85ddcec9ef24085b229b4db38c4",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/satellite-briefing/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/satellite-briefing/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-scifi-toon",
+      "family": "lemo-opuscar",
+      "name_zh": "科幻情景喜剧卡通",
+      "source_title": "Sci-Fi Sitcom Toon — Style Prompt",
+      "category_zh": "卡通与动画",
+      "path": "references/library/lemo-opuscar/styles/scifi-toon/STYLE.md",
+      "bytes": 12755,
+      "sha256": "9a720a57ce50dc554e9237e698a979cdf7311527e6e6a0dad803278dfe8ad2ce",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/scifi-toon/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "39b2a410d0c6fc2587ae6c62603e128daf6042c1",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/scifi-toon/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/scifi-toon/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-shadow-puppet",
+      "family": "lemo-opuscar",
+      "name_zh": "皮影戏",
+      "source_title": "Shadow Puppetry — Style Prompt",
+      "category_zh": "东方传统",
+      "path": "references/library/lemo-opuscar/styles/shadow-puppet/STYLE.md",
+      "bytes": 12787,
+      "sha256": "8be075a8262d5a3deea9b05684d8a9abdc1e54c0d90649bf14609ecb4106c3af",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/shadow-puppet/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "75b626f05d270175d077b64c7cf3592368c03888",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/shadow-puppet/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/shadow-puppet/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-silent-film",
+      "family": "lemo-opuscar",
+      "name_zh": "1920s 默片",
+      "source_title": "1920s Silent Film — Style Prompt",
+      "category_zh": "电影与时代",
+      "path": "references/library/lemo-opuscar/styles/silent-film/STYLE.md",
+      "bytes": 11585,
+      "sha256": "44633a4edd4ec6b84be809bd48b38503a75a71531112b3d28a52f27135012b20",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/silent-film/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "144cf0ed868aad8e9e5435ba9c6a6b3da5a5821a",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silent-film/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/silent-film/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-silkscreen-poster",
+      "family": "lemo-opuscar",
+      "name_zh": "丝印旅行海报",
+      "source_title": "Silkscreen Travel Poster — Style Prompt",
+      "category_zh": "印刷与版画",
+      "path": "references/library/lemo-opuscar/styles/silkscreen-poster/STYLE.md",
+      "bytes": 13026,
+      "sha256": "a8b3792efb1476b78493f86a033221b27f60c1927463cc435f8816e4d9eda148",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/silkscreen-poster/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "d743ffdf86e62fb126c2dafe7deea07334a1300c",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/silkscreen-poster/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/silkscreen-poster/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-spy-titles",
+      "family": "lemo-opuscar",
+      "name_zh": "60s 间谍片头",
+      "source_title": "60s Spy Title Sequence — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/spy-titles/STYLE.md",
+      "bytes": 11411,
+      "sha256": "ea6e9e9073af43ef0bb860e368f60b16ec32a91668386115a142907d92cb1f75",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/spy-titles/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "3cef2fc775f5474da05598eeb6ffcf9194ec1fe6",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/spy-titles/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/spy-titles/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-stained-glass",
+      "family": "lemo-opuscar",
+      "name_zh": "彩色玻璃窗",
+      "source_title": "Stained Glass — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/stained-glass/STYLE.md",
+      "bytes": 11945,
+      "sha256": "0f6551bd109a4127404068aa1e75f18f16b58c80b486c23480b3d193e597b060",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/stained-glass/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "b0527b0b117e62bee1c9201665c6bb42569ee12e",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/stained-glass/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/stained-glass/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-swiss-motion",
+      "family": "lemo-opuscar",
+      "name_zh": "瑞士动态排版",
+      "source_title": "Swiss Motion Graphics — Style Prompt",
+      "category_zh": "图形与排版",
+      "path": "references/library/lemo-opuscar/styles/swiss-motion/STYLE.md",
+      "bytes": 10696,
+      "sha256": "14ddeb6dc495e691a220497069a2ee4827d820f9ee7a3173de5846489ef41f57",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/swiss-motion/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "93020f3881000381785f1cda8b551c7838b25a56",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/swiss-motion/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/swiss-motion/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-teardown",
+      "family": "lemo-opuscar",
+      "name_zh": "产品拆解",
+      "source_title": "Exploded Teardown — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/teardown/STYLE.md",
+      "bytes": 13572,
+      "sha256": "90df05a02a3d33add58e0dd99bef19ca20ea16b10390b3c2350d8483106922ee",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/teardown/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "3d145b6bc44c388df2d62437bc14ffc5d16e0036",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/teardown/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/teardown/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-tilt-shift",
+      "family": "lemo-opuscar",
+      "name_zh": "移轴微缩",
+      "source_title": "Tilt-Shift Miniature — Style Prompt",
+      "category_zh": "材质与 3D",
+      "path": "references/library/lemo-opuscar/styles/tilt-shift/STYLE.md",
+      "bytes": 12077,
+      "sha256": "131ae50c6bddd30922638cbd5f2fae5c047223360a3f6924b074b0db525a5c63",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/tilt-shift/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "b65726e68f73b051385a4fd4f9071f2c090076bd",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/tilt-shift/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/tilt-shift/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-ukiyoe",
+      "family": "lemo-opuscar",
+      "name_zh": "浮世绘",
+      "source_title": "Ukiyo-e — Style Prompt",
+      "category_zh": "东方传统",
+      "path": "references/library/lemo-opuscar/styles/ukiyoe/STYLE.md",
+      "bytes": 12457,
+      "sha256": "a668f2bc5b0b74675c57819e75acc318417a77cb695fa89041b3ed78cb085655",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/ukiyoe/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "afee35aa8e2c6eef9e76677850f4ea2251e0077c",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/ukiyoe/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/ukiyoe/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-urban-sketch",
+      "family": "lemo-opuscar",
+      "name_zh": "钢笔淡彩",
+      "source_title": "Urban Sketch · Pen & Wash — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/urban-sketch/STYLE.md",
+      "bytes": 11766,
+      "sha256": "2baf1a19f31b06e55d66d62e4c3449c7a2686c689190976f3e3d0cbdce2faa9a",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/urban-sketch/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "033bc2e22493e5a93dcd3434c062452010f6fb42",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/urban-sketch/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/urban-sketch/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-watercolor",
+      "family": "lemo-opuscar",
+      "name_zh": "水彩笔刷",
+      "source_title": "Watercolor Brush — Style Prompt",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/watercolor/STYLE.md",
+      "bytes": 11099,
+      "sha256": "662d57568408a7c82ef8f64980ca85798b8bb239df3dc3a6715283d7f4555ef0",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/watercolor/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "26068ee10232bde36f40f2b49c1b9ea96ee010fb",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/watercolor/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/watercolor/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-white-model",
+      "family": "lemo-opuscar",
+      "name_zh": "白模投影",
+      "source_title": "Projection on White Model — Style Prompt",
+      "category_zh": "实证影像",
+      "path": "references/library/lemo-opuscar/styles/white-model/STYLE.md",
+      "bytes": 13581,
+      "sha256": "02b6423a69ac5a30322997ec9523bd6b6f776b7c8cf14f249eeb996b9d21e2c2",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/white-model/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "9dcb279f1bcd1562f9448cf8d7fb4516cad244fd",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/white-model/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/white-model/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-whiteboard",
+      "family": "lemo-opuscar",
+      "name_zh": "白板讲解",
+      "source_title": "Whiteboard Explainer — Style Prompt (v2, no hands)",
+      "category_zh": "手绘与绘画",
+      "path": "references/library/lemo-opuscar/styles/whiteboard/STYLE.md",
+      "bytes": 11648,
+      "sha256": "1a3a707f94c2da8f014a14cf7860cd5414dcf1a9faa76c96104bb91ae1ac7ff5",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/whiteboard/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "fdd88f70a1df12013cec11bf2124ced66493efcb",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/whiteboard/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/whiteboard/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    },
+    {
+      "id": "style-woodcut",
+      "family": "lemo-opuscar",
+      "name_zh": "木刻版画",
+      "source_title": "Woodcut Print — Style Prompt",
+      "category_zh": "印刷与版画",
+      "path": "references/library/lemo-opuscar/styles/woodcut/STYLE.md",
+      "bytes": 12194,
+      "sha256": "b96fda6eeac038137310cc0766d979c8d8a5f3ff6acd87bada5aa50d5136a6a0",
+      "upstream": {
+        "repo": "lemomo-ai/lemo-opuscar",
+        "file": "styles/woodcut/STYLE.md",
+        "commit": "508848acb2b4930c4041fef4d594120da1525bff",
+        "blob_sha": "ea4f2acb7b5bdf54ae79c39336f241bbb94c4052",
+        "url": "https://github.com/lemomo-ai/lemo-opuscar/blob/508848acb2b4930c4041fef4d594120da1525bff/styles/woodcut/STYLE.md",
+        "raw_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-opuscar/508848acb2b4930c4041fef4d594120da1525bff/styles/woodcut/STYLE.md",
+        "verification": "byte-identical to file archived from pinned commit; Git blob SHA-1 matches archived download manifest"
+      }
+    }
+  ]
+}

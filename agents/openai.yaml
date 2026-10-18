@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Video Studio"
+  short_description: "规范采集视频需求，读取66份风格原文并完成纯代码视频制作、验收与交付"
+  default_prompt: "使用 $code-video-studio，先预填并展示完整需求表，再根据我的回答完成纯代码视频。"
